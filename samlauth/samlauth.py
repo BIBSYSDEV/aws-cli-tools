@@ -21,11 +21,10 @@ import argparse
 import os
 import stat
 from botocore.client import Config
-from datetime import datetime
 from dateutil import tz
 from bs4 import BeautifulSoup
 from os.path import expanduser
-from urllib.parse import urlparse, urlunparse
+from urllib.parse import urlparse
 
 __version__ = '0.4'
 

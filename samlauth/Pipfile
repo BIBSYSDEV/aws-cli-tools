@@ -1,0 +1,13 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+python_version = 3.6
+
+[packages]
+boto3 = "*"
+requests = "*"
+bs4 = "*"
+
+[dev-packages]
+pytest = "*"
